@@ -1,0 +1,23 @@
+[2022-03-15 20:10:35.650307] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:init:92] DataManager::init begin
+[2022-03-15 20:10:35.650615] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:init:95] DataManager::init end
+[2022-03-15 20:10:35.650627] debug [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcore/viplexcore.cpp:initCore:187] viplexcore db & log init ok
+[2022-03-15 20:10:35.650634] debug [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcore/viplexcore.cpp:init:108] sdk version = 3.4.0.01
+[2022-03-15 20:10:35.650668] error [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/udp/udpsocket.cpp:initSocket:183] UdpSocket initSocket 
+[2022-03-15 20:10:35.650775] error [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/udp/udpsocket.cpp:initSocket:183] UdpSocket initSocket 
+[2022-03-15 20:10:35.651043] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:119] DataManager::setString begin
+[2022-03-15 20:10:35.679361] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:167] DataManager::setString end
+[2022-03-15 20:10:35.679373] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:getString:172] DataManager::getString begin
+[2022-03-15 20:10:35.679601] error [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/sqloperation.cpp:isFieldExist:96] isFieldExist :no such column: PROGRAMTEMPLATE,strSql=SELECT PROGRAMTEMPLATE FROM commonconfig
+[2022-03-15 20:10:35.679621] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:getString:193] DataManager::getString end
+[2022-03-15 20:10:35.679950] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:119] DataManager::setString begin
+[2022-03-15 20:10:35.680019] error [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/sqloperation.cpp:isFieldExist:96] isFieldExist :no such column: PROGRAMTEMPLATE,strSql=SELECT PROGRAMTEMPLATE FROM commonconfig
+[2022-03-15 20:10:35.702592] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:167] DataManager::setString end
+[2022-03-15 20:10:35.702622] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:getString:172] DataManager::getString begin
+[2022-03-15 20:10:35.702730] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:getString:193] DataManager::getString end
+[2022-03-15 20:10:35.702966] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:119] DataManager::setString begin
+[2022-03-15 20:10:35.714021] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:167] DataManager::setString end
+[2022-03-15 20:10:35.714097] debug [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcore/viplexcore.cpp:init:142] viplexcore init ok: version=3.4.0.01, path=/root/go/src/data_collect/temp, credentials={"company":"NovaStar","phone":"029-68216000","email":"hr@novastar.tech"}
+[2022-03-15 20:10:35.714101] debug [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcore/viplexcore.cpp:init:143] viplexcore  init ok
+[2022-03-15 20:10:35.714106] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:119] DataManager::setString begin
+[2022-03-15 20:10:35.714147] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/http/httpHelper.cpp:httpTimeServerRequest:25] httpTimeServerRequest --srart -- url = ,http://download.vnnox.com/vnnox_api_host/timehost.json
+[2022-03-15 20:10:35.714198] error [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/sqloperation.cpp:isFieldExist:96] isFieldExist :no such column: publicmodule,strSql=SELECT publicmodule FROM commonconfig
