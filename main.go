@@ -1,8 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"viplex/cgo_interface"
+)
 
 func main() {
-	Init()
+	cgo_interface.Init()
 	fmt.Println("hello world")
 }

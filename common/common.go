@@ -1,4 +1,4 @@
-package main
+package common
 
 type Credentials struct {
 	Company string `json:"company"`

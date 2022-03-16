@@ -1,4 +1,4 @@
-package main
+package cgo_interface
 
 /*
 #cgo CPPFLAGS: -I/root/go/src/data_collect/ViplexCoreCentOS/include/
@@ -6,31 +6,20 @@ package main
 #include <stdio.h>
 #include <stdlib.h>
 #include "exportviplexcoreasync.h"
-extern void ViplexCoreCallBack(uint16_t,char *);
 */
 import "C"
-import "encoding/json"
-import "fmt"
-import "unsafe"
-import "os"
-import "path/filepath"
-import "path"
-import "errors"
+import (
+	"encoding/json"
+	"errors"
+	"fmt"
+	"os"
+	"path"
+	"path/filepath"
+	"unsafe"
+	"viplex/common"
+)
 
-func GetPrograms() error {
-	p := Programs{
-		SN: "123456",
-	}
-	b, err := json.Marshal(&p)
-	if err != nil {
-		fmt.Println("json marshal input failed,err:", err)
-		return err
-	}
-	C.nvGetProgramAsync((*C.char)(unsafe.Pointer(&b[0])), (C.ExportViplexCallback)(C.ViplexCoreCallBack))
-
-	return nil
-}
-
+//初始化函数，用来调用nvInit函数完成设备初始化
 func Init() error {
 	dir, err := filepath.Abs(filepath.Dir(os.Args[0]))
 	if err != nil {
@@ -40,14 +29,13 @@ func Init() error {
 	sdkRootDir := path.Join(dir, "temp")
 	CsdkRootDir := C.CString(sdkRootDir)
 
-	c := Credentials{
+	c := common.Credentials{
 		Company: "NovaStar",
 		Phone:   "029-68216000",
 		Email:   "hr@novastar.tech",
 	}
 	credentials, err := json.Marshal(c)
 	Ccredentials := C.CString(string(credentials))
-	
 
 	result := C.nvInit(CsdkRootDir, Ccredentials)
 	C.free(unsafe.Pointer(CsdkRootDir))
@@ -68,9 +56,4 @@ func Init() error {
 		err := errors.New("unknown error")
 		return err
 	}
-}
-
-//export ViplexCoreCallBack
-func ViplexCoreCallBack(C.uint16_t, *C.char) {
-	return
 }
