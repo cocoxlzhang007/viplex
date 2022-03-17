@@ -1,8 +1,8 @@
 package cgo_interface
 
 /*
-#cgo CPPFLAGS: -I/root/go/src/data_collect/ViplexCoreCentOS/include/
-#cgo LDFLAGS: -L/root/go/src/data_collect/ViplexCoreCentOS/bin/ -lviplexcore
+#cgo CPPFLAGS: -I../ViplexCoreCentOS/include/
+#cgo LDFLAGS: -L${SRCDIR}/../ViplexCoreCentOS/bin -lviplexcore
 #include <stdio.h>
 #include <stdlib.h>
 #include "exportviplexcoreasync.h"

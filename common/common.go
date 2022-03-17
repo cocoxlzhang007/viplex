@@ -9,3 +9,12 @@ type Credentials struct {
 type Programs struct {
 	SN string `json:"sn"`
 }
+
+type PublicNet struct{
+	PublicModule bool `json:"publicmodule"`
+	Encrypt bool `json:"encrypt"`
+	CertificatePath string `json:"certificatePath"`
+	Port int `json:"port"`
+	HttpserverUrl string `json:"httpserverUrl"`
+	HttpserverLocalPath string `json:"httpserverLocalPath"`
+}

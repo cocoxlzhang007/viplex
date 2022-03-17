@@ -1,23 +1,69 @@
-[2022-03-15 20:10:35.650307] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:init:92] DataManager::init begin
-[2022-03-15 20:10:35.650615] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:init:95] DataManager::init end
-[2022-03-15 20:10:35.650627] debug [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcore/viplexcore.cpp:initCore:187] viplexcore db & log init ok
-[2022-03-15 20:10:35.650634] debug [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcore/viplexcore.cpp:init:108] sdk version = 3.4.0.01
-[2022-03-15 20:10:35.650668] error [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/udp/udpsocket.cpp:initSocket:183] UdpSocket initSocket 
-[2022-03-15 20:10:35.650775] error [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/udp/udpsocket.cpp:initSocket:183] UdpSocket initSocket 
-[2022-03-15 20:10:35.651043] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:119] DataManager::setString begin
-[2022-03-15 20:10:35.679361] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:167] DataManager::setString end
-[2022-03-15 20:10:35.679373] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:getString:172] DataManager::getString begin
-[2022-03-15 20:10:35.679601] error [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/sqloperation.cpp:isFieldExist:96] isFieldExist :no such column: PROGRAMTEMPLATE,strSql=SELECT PROGRAMTEMPLATE FROM commonconfig
-[2022-03-15 20:10:35.679621] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:getString:193] DataManager::getString end
-[2022-03-15 20:10:35.679950] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:119] DataManager::setString begin
-[2022-03-15 20:10:35.680019] error [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/sqloperation.cpp:isFieldExist:96] isFieldExist :no such column: PROGRAMTEMPLATE,strSql=SELECT PROGRAMTEMPLATE FROM commonconfig
-[2022-03-15 20:10:35.702592] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:167] DataManager::setString end
-[2022-03-15 20:10:35.702622] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:getString:172] DataManager::getString begin
-[2022-03-15 20:10:35.702730] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:getString:193] DataManager::getString end
-[2022-03-15 20:10:35.702966] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:119] DataManager::setString begin
-[2022-03-15 20:10:35.714021] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:167] DataManager::setString end
-[2022-03-15 20:10:35.714097] debug [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcore/viplexcore.cpp:init:142] viplexcore init ok: version=3.4.0.01, path=/root/go/src/data_collect/temp, credentials={"company":"NovaStar","phone":"029-68216000","email":"hr@novastar.tech"}
-[2022-03-15 20:10:35.714101] debug [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcore/viplexcore.cpp:init:143] viplexcore  init ok
-[2022-03-15 20:10:35.714106] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:119] DataManager::setString begin
-[2022-03-15 20:10:35.714147] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/http/httpHelper.cpp:httpTimeServerRequest:25] httpTimeServerRequest --srart -- url = ,http://download.vnnox.com/vnnox_api_host/timehost.json
-[2022-03-15 20:10:35.714198] error [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/sqloperation.cpp:isFieldExist:96] isFieldExist :no such column: publicmodule,strSql=SELECT publicmodule FROM commonconfig
+[2022-03-16 10:23:40.996484] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:init:92] DataManager::init begin
+[2022-03-16 10:23:40.996782] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:init:95] DataManager::init end
+[2022-03-16 10:23:40.996792] debug [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcore/viplexcore.cpp:initCore:187] viplexcore db & log init ok
+[2022-03-16 10:23:40.996797] debug [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcore/viplexcore.cpp:init:108] sdk version = 3.4.0.01
+[2022-03-16 10:23:40.996825] error [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/udp/udpsocket.cpp:initSocket:183] UdpSocket initSocket 
+[2022-03-16 10:23:40.996928] error [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/udp/udpsocket.cpp:initSocket:183] UdpSocket initSocket 
+[2022-03-16 10:26:21.413844] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:init:92] DataManager::init begin
+[2022-03-16 10:26:21.414098] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:init:95] DataManager::init end
+[2022-03-16 10:26:21.414107] debug [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcore/viplexcore.cpp:initCore:187] viplexcore db & log init ok
+[2022-03-16 10:26:21.414113] debug [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcore/viplexcore.cpp:init:108] sdk version = 3.4.0.01
+[2022-03-16 10:26:21.414142] error [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/udp/udpsocket.cpp:initSocket:183] UdpSocket initSocket 
+[2022-03-16 10:26:21.414241] error [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/udp/udpsocket.cpp:initSocket:183] UdpSocket initSocket 
+[2022-03-16 10:26:21.414465] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:119] DataManager::setString begin
+[2022-03-16 10:26:21.414837] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:167] DataManager::setString end
+[2022-03-16 10:26:21.414842] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:getString:172] DataManager::getString begin
+[2022-03-16 10:26:21.414904] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:getString:193] DataManager::getString end
+[2022-03-16 10:26:21.414909] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:getString:172] DataManager::getString begin
+[2022-03-16 10:26:21.414958] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:getString:193] DataManager::getString end
+[2022-03-16 10:26:21.415293] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:119] DataManager::setString begin
+[2022-03-16 10:26:21.415385] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:167] DataManager::setString end
+[2022-03-16 10:26:21.415432] debug [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcore/viplexcore.cpp:init:142] viplexcore init ok: version=3.4.0.01, path=/root/go/src/viplex/temp, credentials={"company":"NovaStar","phone":"029-68216000","email":"hr@novastar.tech"}
+[2022-03-16 10:26:21.415437] debug [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcore/viplexcore.cpp:init:143] viplexcore  init ok
+[2022-03-16 10:26:21.415443] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:119] DataManager::setString begin
+[2022-03-16 10:26:21.415474] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/http/httpHelper.cpp:httpTimeServerRequest:25] httpTimeServerRequest --srart -- url = ,http://download.vnnox.com/vnnox_api_host/timehost.json
+[2022-03-16 10:26:21.415532] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/http/httpHelper.cpp:httpNodeServerRequest:43] httpNodeServerRequest --srart -- url = ,http://download.vnnox.com/vnnox_api_host/host.json
+[2022-03-16 10:26:21.415537] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:167] DataManager::setString end
+[2022-03-16 10:26:21.415652] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/http/httpHelper.cpp:httpVnnoxNodeServerRequest:585] httpVnnoxNodeServerRequest --srart -- url = ,http://download.vnnox.com/vnnox_api_host/nodes.json
+[2022-03-16 10:26:21.415658] debug [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/viplexcommon.cpp:getHardWare:407] open file /sys/block/sda/device/wwid failed
+[2022-03-16 10:26:21.415706] debug [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcore/viplexcore.cpp:operator():130] getBuryPoint() return true
+[2022-03-16 10:26:21.415717] debug [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcore/burypoint.cpp:uploadInit:23] BuryPoint::uploadInit begin
+[2022-03-16 10:26:21.415733] debug [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/viplexcommon.cpp:getHardWare:407] open file /sys/block/sda/device/wwid failed
+[2022-03-16 10:26:21.415742] debug [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcore/burypoint.cpp:getOSSUploadBuryPointInfo:30] BuryPoint::getOSSUploadBuryPointInfo begin
+[2022-03-16 10:26:21.415751] debug [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcore/burypoint.cpp:getOSSUploadBuryPointInfo:35] BuryPoint::getOSSUploadBuryPointInfo getOssInfoUrl=https://oss-service.vnnox.com/oss/ossAuthorization
+[2022-03-16 10:26:21.702824] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:119] DataManager::setString begin
+[2022-03-16 10:26:21.704896] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:119] DataManager::setString begin
+[2022-03-16 10:26:21.704908] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:119] DataManager::setString begin
+[2022-03-16 10:26:21.720807] error [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/sqloperation.cpp:isFieldExist:96] isFieldExist :no such column: NODE_SERVERS_VNNOX,strSql=SELECT NODE_SERVERS_VNNOX FROM commonconfig
+[2022-03-16 10:26:21.746456] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:167] DataManager::setString end
+[2022-03-16 10:26:21.746649] error [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/sqloperation.cpp:isFieldExist:96] isFieldExist :no such column: NODE_LIST_VNNOX,strSql=SELECT NODE_LIST_VNNOX FROM commonconfig
+[2022-03-16 10:26:21.774363] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:167] DataManager::setString end
+[2022-03-16 10:26:21.774555] error [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/sqloperation.cpp:isFieldExist:96] isFieldExist :no such column: TIMING_SERVERS_VNNOX,strSql=SELECT TIMING_SERVERS_VNNOX FROM commonconfig
+[2022-03-17 11:35:55.418527] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:init:92] DataManager::init begin
+[2022-03-17 11:35:55.421346] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:init:95] DataManager::init end
+[2022-03-17 11:35:55.421374] debug [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcore/viplexcore.cpp:initCore:187] viplexcore db & log init ok
+[2022-03-17 11:35:55.421384] debug [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcore/viplexcore.cpp:init:108] sdk version = 3.4.0.01
+[2022-03-17 11:35:55.421424] error [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/udp/udpsocket.cpp:initSocket:183] UdpSocket initSocket 
+[2022-03-17 11:35:55.422678] error [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/udp/udpsocket.cpp:initSocket:183] UdpSocket initSocket 
+[2022-03-17 11:35:55.422920] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:119] DataManager::setString begin
+[2022-03-17 11:35:55.424328] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:167] DataManager::setString end
+[2022-03-17 11:35:55.424337] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:getString:172] DataManager::getString begin
+[2022-03-17 11:35:55.424456] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:getString:193] DataManager::getString end
+[2022-03-17 11:35:55.424463] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:getString:172] DataManager::getString begin
+[2022-03-17 11:35:55.424512] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:getString:193] DataManager::getString end
+[2022-03-17 11:35:55.424912] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:119] DataManager::setString begin
+[2022-03-17 11:35:55.425059] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:167] DataManager::setString end
+[2022-03-17 11:35:55.425124] debug [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcore/viplexcore.cpp:init:142] viplexcore init ok: version=3.4.0.01, path=/root/go/src/viplex/temp, credentials={"company":"NovaStar","phone":"029-68216000","email":"hr@novastar.tech"}
+[2022-03-17 11:35:55.425130] debug [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcore/viplexcore.cpp:init:143] viplexcore  init ok
+[2022-03-17 11:35:55.425136] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:119] DataManager::setString begin
+[2022-03-17 11:35:55.425195] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/http/httpHelper.cpp:httpTimeServerRequest:25] httpTimeServerRequest --srart -- url = ,http://download.vnnox.com/vnnox_api_host/timehost.json
+[2022-03-17 11:35:55.425226] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/datamanager/datamanager.cpp:setString:167] DataManager::setString end
+[2022-03-17 11:35:55.425260] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/http/httpHelper.cpp:httpNodeServerRequest:43] httpNodeServerRequest --srart -- url = ,http://download.vnnox.com/vnnox_api_host/host.json
+[2022-03-17 11:35:55.425378] info [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/http/httpHelper.cpp:httpVnnoxNodeServerRequest:585] httpVnnoxNodeServerRequest --srart -- url = ,http://download.vnnox.com/vnnox_api_host/nodes.json
+[2022-03-17 11:35:55.425460] debug [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/viplexcommon.cpp:getHardWare:407] open file /sys/block/sda/device/wwid failed
+[2022-03-17 11:35:55.425465] debug [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcore/viplexcore.cpp:operator():130] getBuryPoint() return true
+[2022-03-17 11:35:55.425550] debug [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcore/burypoint.cpp:uploadInit:23] BuryPoint::uploadInit begin
+[2022-03-17 11:35:55.425584] debug [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcommon/viplexcommon.cpp:getHardWare:407] open file /sys/block/sda/device/wwid failed
+[2022-03-17 11:35:55.425594] debug [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcore/burypoint.cpp:getOSSUploadBuryPointInfo:30] BuryPoint::getOSSUploadBuryPointInfo begin
+[2022-03-17 11:35:55.425605] debug [/opt/jenkins-build/workspace/viplexcore-centos/src/libs/viplexcore/burypoint.cpp:getOSSUploadBuryPointInfo:35] BuryPoint::getOSSUploadBuryPointInfo getOssInfoUrl=https://oss-service.vnnox.com/oss/ossAuthorization
+[2022-03-17 11:35:55.425745] info [/opt/jenkins-bui
